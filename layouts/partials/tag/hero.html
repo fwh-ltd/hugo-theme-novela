@@ -1,0 +1,10 @@
+<section class="section narrow">
+    <div class="tag-hero">
+        {{ with .Params.avatar }}
+            <div class="tag-hero-image">
+                <img alt="{{ .Title }} hero image" src="{{ . }}" />
+            </div>
+        {{ end }}
+        <h1 class="tag-heading">{{ .Title }}</h1>
+    </div>
+</section>
