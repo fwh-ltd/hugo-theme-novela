@@ -1,0 +1,3 @@
+{{ (print "<div class='" (.Get "class") "'>") | safeHTML }}
+{{ .Inner | markdownify }}
+{{ "</div>" | safeHTML }}
